@@ -11,7 +11,7 @@ const WidgetSM = () => {
         <li className="widgetSmListItem">
           <img
             className="widgetSmImg"
-            src="https://images.pexels.com/photos/1772475/pexels-photo-1772475.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            src="https://avatars.githubusercontent.com/u/45060771?v=4"
             alt=""
           />
           <div className="widgetSmUser">
@@ -26,7 +26,7 @@ const WidgetSM = () => {
         <li className="widgetSmListItem">
           <img
             className="widgetSmImg"
-            src="https://images.pexels.com/photos/1772475/pexels-photo-1772475.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            src="https://avatars.githubusercontent.com/u/45060771?v=4"
             alt=""
           />
           <div className="widgetSmUser">
@@ -40,7 +40,7 @@ const WidgetSM = () => {
         <li className="widgetSmListItem">
           <img
             className="widgetSmImg"
-            src="https://images.pexels.com/photos/1772475/pexels-photo-1772475.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            src="https://avatars.githubusercontent.com/u/45060771?v=4"
             alt=""
           />
           <div className="widgetSmUser">
@@ -54,7 +54,7 @@ const WidgetSM = () => {
         <li className="widgetSmListItem">
           <img
             className="widgetSmImg"
-            src="https://images.pexels.com/photos/1772475/pexels-photo-1772475.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+            src="https://avatars.githubusercontent.com/u/45060771?v=4"
             alt=""
           />
           <div className="widgetSmUser">

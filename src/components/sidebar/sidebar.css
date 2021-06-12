@@ -1,21 +1,54 @@
 .sidebar {
-  flex: 1;
+  width: 20%;
   height: calc(100vh - 50px);
-  background-color: rgb(251, 251, 255);
-  position: sticky;
-  top: 0;
+  background-color: rgb(49 49 49);
+  position: fixed;
+  top: 50px;
+  overflow: scroll;
+  padding-top: 20px;
+}
+.sidebar::-webkit-scrollbar {
+  display: none; /* Safari and Chrome browsers */
+  width: 0;
+}
+.sidebar {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* mozilla */
+}
+.sidebarAvatar{
+  display: flex;
+  flex-direction: column;
+  align-items:flex-end;
+  justify-content: space-between;
 }
 
+.sidebarAvatarImg {
+  width: 90px;
+  height: 90px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.sidebarAvatarName{
+  cursor: pointer;
+  margin: 5px 0;
+}
+.brakeLine {
+  height: 1px;
+  background: rgba(255, 255, 255, 0.251);
+  border: none;
+  width: 100%;
+  margin-bottom: 30px;
+}
 .sidebarWrapper {
   padding: 20px;
-  color: #555;
+  color: rgb(175, 175, 175);
 }
 .sidebarMenu {
   margin-bottom: 10px;
 }
 .sidebarTitile {
   font-style: 30px;
-  color: rgb(187, 186, 186);
+  color: rgb(255, 255, 255);
 }
 .sidebarList {
   list-style: none;
@@ -28,16 +61,20 @@
   align-items: center;
   border-radius: 10px;
   margin: 3px;
+  height: 32px;
+  margin-bottom: 5px;
+  border-bottom: 0.1px solid rgba(135, 135, 135, 0.211);
 }
 
 .sidebarListItem.active,
 .sidebarListItem:hover {
-  background-color: rgb(228, 228, 250);
+  background-color: rgb(86 86 86);
+  height: 32px;
+  border: 0.1px solid rgba(135, 135, 135, 0.211);
   transition: all 0.2s ease-in-out;
 }
 
-
-.sidebarIcon{
+.sidebarIcon {
   margin: 5px;
   font-size: 20px !important;
 }

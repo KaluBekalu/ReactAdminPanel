@@ -1,12 +1,13 @@
 .topbar {
-  padding-top: 20px;
+  padding: 10px 0;
   width: 100%;
   height: 50px;
-  background-color: #fff;
+  background-color: rgb(49 49 49);
   position: sticky;
   top: 0;
   left: 0;
   z-index: 999;
+  /* box-shadow: 0px 10px 13px -7px #000000, 14px 10px 38px 1px rgb(0 0 0 / 23%); */
 }
 
 .topright {
@@ -25,7 +26,7 @@
 .logo {
   font-weight: bold;
   cursor: pointer;
-  color: darkblue;
+  color: rgb(255, 255, 255);
   font-size: 32px;
 }
 
@@ -54,4 +55,7 @@
   height: 40px;
   cursor: pointer;
   border-radius: 50%;
+}
+.topbarIcon{
+  fill: #fff;
 }

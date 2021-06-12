@@ -7,21 +7,25 @@ export default function Topbar() {
     <div className="topbar">
       <div className="topbarWrapper">
         <div className="topleft">
-          <span className="logo">Adminer</span>
+          <span className="logo">KalBekalu</span>
         </div>
         <div className="topright">
           <div className="topbarIconContainer">
-            <NotificationsNone />
+            <NotificationsNone classname="topbarIcon" />
             <span className="topIconBadge">2</span>
           </div>
           <div className="topbarIconContainer">
-            <Language />
+            <Language classname="topbarIcon" />
             <span className="topIconBadge">2</span>
           </div>
           <div className="topbarIconContainer">
-            <Settings />
+            <Settings classname="topbarIcon" />
           </div>
-         <img src="https://images.pexels.com/photos/1772475/pexels-photo-1772475.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260" alt="" className="avatar" />
+          <img
+            src="https://avatars.githubusercontent.com/u/45060771?v=4"
+            alt=""
+            className="avatar"
+          />
         </div>
       </div>
     </div>

@@ -19,7 +19,7 @@ const WidgetLG = () => {
           <td className="widgetLgUser">
             <img
               className="widgetLgImg"
-              src="https://images.pexels.com/photos/1772475/pexels-photo-1772475.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              src="https://avatars.githubusercontent.com/u/45060771?v=4"
               alt=""
             />
             <span className="widgetLgName">Kalu Bekalu</span>
@@ -34,7 +34,7 @@ const WidgetLG = () => {
           <td className="widgetLgUser">
             <img
               className="widgetLgImg"
-              src="https://images.pexels.com/photos/1772475/pexels-photo-1772475.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              src="https://avatars.githubusercontent.com/u/45060771?v=4"
               alt=""
             />
             <span className="widgetLgName">Kalu Bekalu</span>
@@ -49,7 +49,7 @@ const WidgetLG = () => {
           <td className="widgetLgUser">
             <img
               className="widgetLgImg"
-              src="https://images.pexels.com/photos/1772475/pexels-photo-1772475.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              src="https://avatars.githubusercontent.com/u/45060771?v=4"
               alt=""
             />
             <span className="widgetLgName">Kalu Bekalu</span>
@@ -64,7 +64,7 @@ const WidgetLG = () => {
           <td className="widgetLgUser">
             <img
               className="widgetLgImg"
-              src="https://images.pexels.com/photos/1772475/pexels-photo-1772475.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+              src="https://avatars.githubusercontent.com/u/45060771?v=4"
               alt=""
             />
             <span className="widgetLgName">Kalu Bekalu</span>
