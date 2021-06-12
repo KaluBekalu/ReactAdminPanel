@@ -7,3 +7,10 @@
   display: flex;
   margin: 20px;
 }
+
+@media screen and (max-width: 1100px) {
+  .home {
+    transition: all 0.8s ease-in-out;
+    width: 100%;
+  }
+}

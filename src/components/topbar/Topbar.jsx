@@ -1,6 +1,11 @@
 import React from "react";
 import "./Topbar.css";
-import { NotificationsNone, Language, Settings } from "@material-ui/icons";
+import {
+  NotificationsNone,
+  Language,
+  SettingsApplications,
+  MenuOutlined,
+} from "@material-ui/icons";
 
 export default function Topbar() {
   return (
@@ -8,6 +13,11 @@ export default function Topbar() {
       <div className="topbarWrapper">
         <div className="topleft">
           <span className="logo">KalBekalu</span>
+        </div>
+        <div className="toprightMenuBtn">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
         <div className="topright">
           <div className="topbarIconContainer">
@@ -19,7 +29,7 @@ export default function Topbar() {
             <span className="topIconBadge">2</span>
           </div>
           <div className="topbarIconContainer">
-            <Settings classname="topbarIcon" />
+            <SettingsApplications classname="topbarIcon" />
           </div>
           <img
             src="https://avatars.githubusercontent.com/u/45060771?v=4"
