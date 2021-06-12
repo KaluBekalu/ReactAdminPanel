@@ -47,7 +47,7 @@
   background-color: red;
   font-size: 10px;
 }
-img {
+.avatar {
   width: 40px;
   height: 40px;
   cursor: pointer;
