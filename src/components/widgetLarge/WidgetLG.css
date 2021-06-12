@@ -1,0 +1,69 @@
+.widgetLg {
+  flex: 2;
+  padding: 20px;
+  /* margin-right: 20px; */
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    14px 10px 38px 1px rgba(0, 0, 0, 0.23);
+  box-shadow: 0px 10px 13px -7px #000000, 14px 10px 38px 1px rgba(0, 0, 0, 0.23);
+}
+
+.widgetLgTitle {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.widgetLgImg {
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.widgetLgButton {
+  width: 70%;
+  padding: 5px 7px;
+  text-align: center;
+  border: none;
+  border-radius: 10px;
+}
+.widgetLgButton.approved {
+  background-color: #4caf50;
+  color: #fff;
+}
+.widgetLgButton.declined {
+  background-color: #fd0202;
+  color: #fff;
+}
+.widgetLgButton.pending {
+  background-color: #0026ff;
+  color: #fff;
+}
+
+.widgetLgTable {
+  width: 100%;
+  border-spacing: 20px;
+}
+.widgetLgTr {
+}
+.widgetLgTh {
+  text-align: left;
+}
+.widgetLgTr {
+}
+.widgetLgUser {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+}
+.widgetLgName {
+  margin-left: 20px;
+}
+.widgetLgDate,
+.widgetLgAmount {
+  font-weight: 300;
+}
+
+.widgetLgStatus {
+}

@@ -4,6 +4,7 @@ import {
   LineChart,
   Line,
   XAxis,
+  Tooltip,
   CartesianGrid,
   ResponsiveContainer,
 } from "recharts";
@@ -17,6 +18,7 @@ function Chart({ data, title, grid, dataKey }) {
           {grid && <CartesianGrid strokeDasharray="3 3" />}
           <XAxis dataKey="name" />
           <Line type="monotone" dataKey={dataKey} stroke="#5550bd" />
+        <Tooltip />
         </LineChart>
       </ResponsiveContainer>
     </div>
