@@ -76,7 +76,7 @@
 .topbarIcon {
   color: white;
 }
-/* @media screen and (max-width: 1100px) {
+@media screen and (max-width: 1100px) {
   .topright {
     display: none;
     color: rgba(255, 255, 255, 0);
@@ -86,4 +86,4 @@
     display: flex;
     transition: all 2s ease-in-out;
   }
-} */
+}

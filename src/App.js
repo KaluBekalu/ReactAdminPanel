@@ -7,6 +7,10 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "./pages/home/Home";
 import UserList from "./pages/userList/UserList";
 import User from "./pages/user/User";
+import NewUser from "./pages/newUser/NewUser";
+import Product from "./pages/products/Product";
+import Products from "./pages/productList/ProductList";
+import ComingSoon from "./pages/comingSoon/ComingSoon";
 
 // Edn Paged
 
@@ -25,6 +29,18 @@ function App() {
           </Route>
           <Route exact path="/user/:userId">
             <User />
+          </Route>
+          <Route exact path="/newUser">
+            <NewUser />
+          </Route>
+          <Route exact path="/products">
+            <Products />
+          </Route>
+          <Route exact path="/product/:productID">
+            <Product />
+          </Route>
+          <Route exact path="/comingSoon">
+            <ComingSoon />
           </Route>
         </Switch>
       </div>

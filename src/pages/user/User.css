@@ -160,3 +160,9 @@
   color: #fff;
   background: rgb(8, 1, 189);
 }
+@media screen and (max-width: 1100px) {
+  .user {
+    transition: all 0.8s ease-in-out;
+    width: 100%;
+  }
+}

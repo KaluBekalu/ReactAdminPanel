@@ -39,12 +39,12 @@ export default function Sidebar() {
                 <LineStyle className="sidebarIcon" /> Home
               </li>
             </Link>
-            <Link to="">
+            <Link to="/comingSoon">
               <li className="sidebarListItem">
                 <Timeline className="sidebarIcon" /> Analytics
               </li>
             </Link>
-            <Link to="">
+            <Link to="/comingSoon">
               <li className="sidebarListItem">
                 <TrendingUp className="sidebarIcon" />
                 Sales
@@ -61,18 +61,18 @@ export default function Sidebar() {
                 <PermIdentity className="sidebarIcon" /> Users
               </li>
             </Link>
-            <Link to="">
+            <Link to="/products">
               <li className="sidebarListItem">
                 <Storefront className="sidebarIcon" /> Products
               </li>
             </Link>
-            <Link to="">
+            <Link to="/comingSoon">
               <li className="sidebarListItem">
                 <AttachMoney className="sidebarIcon" />
                 Transaction
               </li>
             </Link>
-            <Link to="">
+            <Link to="/comingSoon">
               <li className="sidebarListItem">
                 <BarChart className="sidebarIcon" />
                 Reports
@@ -84,17 +84,17 @@ export default function Sidebar() {
         <div className="sidebarMenu">
           <h3 className="sidebarTitile">Notifications</h3>
           <ul className="sidebarList">
-            <Link to="">
+            <Link to="/comingSoon">
               <li className="sidebarListItem">
                 <MailOutline className="sidebarIcon" /> Mail
               </li>
             </Link>
-            <Link to="">
+            <Link to="/comingSoon">
               <li className="sidebarListItem">
                 <FeedbackOutlined className="sidebarIcon" /> Feedback
               </li>
             </Link>
-            <Link to="">
+            <Link to="/comingSoon">
               <li className="sidebarListItem">
                 <MessageOutlined className="sidebarIcon" />
                 Sales
@@ -106,17 +106,17 @@ export default function Sidebar() {
         <div className="sidebarMenu">
           <h3 className="sidebarTitile">Staff</h3>
           <ul className="sidebarList">
-            <Link to="">
+            <Link to="/comingSoon">
               <li className="sidebarListItem">
                 <WorkOutline className="sidebarIcon" /> Manage
               </li>
             </Link>
-            <Link to="">
+            <Link to="/comingSoon">
               <li className="sidebarListItem">
                 <Timeline className="sidebarIcon" /> Analytics
               </li>
             </Link>
-            <Link to="">
+            <Link to="/comingSoon">
               <li className="sidebarListItem">
                 <Report className="sidebarIcon" />
                 Reports
