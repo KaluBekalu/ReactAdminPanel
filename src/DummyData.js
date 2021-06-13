@@ -44,3 +44,80 @@ export const userData = [
     "Active User": 2780,
   },
 ];
+
+
+
+export const userRows = [
+  {
+    id: 1,
+    userName: "Kalu Bekalu",
+    avatar: "https://avatars.githubusercontent.com/u/45060771?v=4",
+    email: "kalu@bekalu.com",
+    status: "active",
+    transaction: "$1220.98",
+  },
+  {
+    id: 2,
+    userName: "Bekalu Kalu",
+    avatar: "https://avatars.githubusercontent.com/u/45060771?v=4",
+    email: "kalu@bekalu.com",
+    status: "active",
+    transaction: "$1220.98",
+  },
+  {
+    id: 3,
+    userName: "Alu kalu",
+    avatar: "https://avatars.githubusercontent.com/u/45060771?v=4",
+    email: "kalu@bekalu.com",
+    status: "active",
+    transaction: "$1220.98",
+  },
+  {
+    id: 4,
+    userName: "Kal Kalub",
+    avatar: "https://avatars.githubusercontent.com/u/45060771?v=4",
+    email: "kalu@bekalu.com",
+    status: "active",
+    transaction: "$1220.98",
+  },
+  {
+    id: 5,
+    userName: "Akalu Bek",
+    avatar: "https://avatars.githubusercontent.com/u/45060771?v=4",
+    email: "kalu@bekalu.com",
+    status: "active",
+    transaction: "$1220.98",
+  },
+  {
+    id: 6,
+    userName: "Kalu Bekalu",
+    avatar: "https://avatars.githubusercontent.com/u/45060771?v=4",
+    email: "kalu@bekalu.com",
+    status: "active",
+    transaction: "$1220.98",
+  },
+  {
+    id: 7,
+    userName: "Kalu Bekalu",
+    avatar: "https://avatars.githubusercontent.com/u/45060771?v=4",
+    email: "kalu@bekalu.com",
+    status: "active",
+    transaction: "$1220.98",
+  },
+  {
+    id: 8,
+    userName: "Kalu Bekalu",
+    avatar: "https://avatars.githubusercontent.com/u/45060771?v=4",
+    email: "kalu@bekalu.com",
+    status: "active",
+    transaction: "$1220.98",
+  },
+  {
+    id: 9,
+    userName: "Ekal Abekal",
+    avatar: "https://avatars.githubusercontent.com/u/45060771?v=4",
+    email: "kalu@bekalu.com",
+    status: "active",
+    transaction: "$1220.98",
+  },
+];

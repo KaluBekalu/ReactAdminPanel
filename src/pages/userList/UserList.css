@@ -1,0 +1,34 @@
+.userList {
+  width: 80%;
+  margin-left: auto;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+}
+.tableContainer{
+  width: 95%;
+}
+.rowUser{
+  display: flex;
+  align-items:center;
+}
+.tableAvatar{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 15px;
+  margin-left: 5px;
+}
+.userListEdit{
+  border: none;
+  border-radius: 10px;
+  padding: 5px 10px;
+  background-color:#3bb077;
+  color: #fff;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.userListDelete{
+  color: red;
+  cursor: pointer;
+}
