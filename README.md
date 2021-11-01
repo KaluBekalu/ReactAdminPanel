@@ -7,4 +7,4 @@ Live Demo: https://nostalgic-wiles-630619.netlify.app/
 Show Case:
 
 
-![](Admin ShowCase.gif)
+![](AdminShowCase.gif)
