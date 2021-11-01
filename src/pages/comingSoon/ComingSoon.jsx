@@ -1,10 +1,13 @@
 import "./ComingSoon.css";
+import Typist from "react-typist";
 
 const ComingSoon = () => {
   return (
     <div className="comingSoon">
-      <h1 className="UnderDev">Coming Soon!</h1>
-      
+      <Typist>
+        <h1 className="UnderDev">Coming Soon! </h1>
+      </Typist>
+
       <div class="motionblur">
         <div class="box"></div>
       </div>
