@@ -8,3 +8,7 @@ Show Case:
 
 
 ![](./src/AdminShowCase.PNG)
+
+
+
+![](ShowCase.gif)
